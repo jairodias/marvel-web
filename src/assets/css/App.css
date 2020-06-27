@@ -5,6 +5,8 @@ body{
   height: 100vh;
   background-color: #f0f0f5;
 
+  background: rgb(11, 10, 13);
+
   display: flex;
   justify-content: center;
 
@@ -24,8 +26,8 @@ html{
 }
 
 .app{
-
-  margin-top: 15px;
+  background: #FFF;
+  margin-top: 50px;
 
   width: 1100px;
   display: flex;
@@ -51,8 +53,6 @@ html{
 
   width: 80%;
   height: 100px;
-
-  margin: 15px;
 
   justify-content: space-around;
 

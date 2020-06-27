@@ -1,5 +1,7 @@
-import React from 'react';
+import React, {useState, useEffect}from 'react';
 import movies from './urls/getMovies';
+
+import axios from 'axios';
 
 import logomarvel from './assets/img/icons/marvel.svg';
 
@@ -14,8 +16,9 @@ import movie1 from './assets/img/movies/black-panther.png'
 
 import './assets/css/App.css';
 import './assets/css/sectionHeroes.css'
+import './assets/css/responsividade.css'
 
-function App() {
+const App = () => {
   return (
     <div className="app">
       <img src={logomarvel}></img>
@@ -36,6 +39,161 @@ function App() {
 
       <div className="line-info-hero">
         <h2>Heróis</h2>
+        <h4>Ver tudo</h4>
+      </div>
+      
+
+      <div className="movies-options">
+        <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+      </div>
+
+
+
+
+      <div className="line-info-hero">
+        <h2>Vilões</h2>
+        <h4>Ver tudo</h4>
+      </div>
+      
+
+      <div className="movies-options">
+        <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+      </div>
+
+
+
+
+      <div className="line-info-hero">
+        <h2>Anti-Heróis</h2>
+        <h4>Ver tudo</h4>
+      </div>
+      
+
+      <div className="movies-options">
+        <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+      </div>
+
+
+
+
+
+
+
+      <div className="line-info-hero">
+        <h2>Alienígenas</h2>
+        <h4>Ver tudo</h4>
+      </div>
+      
+
+      <div className="movies-options">
+        <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+
+          <div className="movies-panel">
+          <img src={movie1} />
+
+            <span>Ator Principal</span>
+            <strong>
+              Description filme legal
+            </strong>
+          </div>
+      </div>
+
+
+
+
+      <div className="line-info-hero">
+        <h2>Humanos</h2>
         <h4>Ver tudo</h4>
       </div>
       
